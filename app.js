@@ -21,7 +21,7 @@ const coordinates = [
 mapboxgl.accessToken = 'pk.eyJ1IjoiYm9iYnlmZXJyZXIiLCJhIjoiY2p5and1aXo4MDhjdjNibjRsZ2VnbnI5diJ9.EvMqr1VHIa3eFhcEmeKPzQ';
 var map = new mapboxgl.Map({
 	container: 'map',
-	style: 'mapbox://styles/mapbox/light-v10',
+	style: 'mapbox://styles/mapbox/dark-v10',
 	zoom: 12,
 	center: [ -122.447303, 37.753574 ]
 });
